@@ -36,15 +36,17 @@ const Footerwrapper = () => {
 						<h3>For Patients</h3>
 
 						<p>Search for doctors</p>
-						<p>Serch for clinic</p>
+						<p>Serch for clinics</p>
 						<p>Search for hospitals</p>
-						<p>Book diaginistics checks</p>
+						<p>Book diagnostic Tests</p>
 						<p>Book Full Body checkup</p>
 						<p>Practo plus</p>
 					</div>
 					<div className='footerdata'>
-						<h3>For Clinics</h3>
+					    <h3>For doctors</h3>
+						<p>Practo Profile</p>
 
+						<h3>For Clinics</h3>
 						<p>Ray by Pacto</p>
 						<p>Practo Reach</p>
 						<p>Ray Tab</p>
@@ -57,6 +59,10 @@ const Footerwrapper = () => {
 						<p>Quickwell by Pacto</p>
 						<p>Practo Profile</p>
 						<p>Practo Reach</p>
+						<p>Practo Drive</p>
+
+						<h3>For Corporates</h3>
+						<p>Wellness Plans</p>
 					</div>
 					<div className='footerdata'>
 						<h3>More</h3>
@@ -66,6 +72,7 @@ const Footerwrapper = () => {
 						<p>Privacy Policy</p>
 						<p>Terms and Conditions</p>
 						<p>Healthcare directory</p>
+						<p>Practo Health Wiki</p>
 					</div>
 					<div className='footerdata'>
 						<h3>Social</h3>
