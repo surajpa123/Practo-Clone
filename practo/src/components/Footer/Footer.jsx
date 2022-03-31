@@ -8,7 +8,7 @@ const Footer = styled.div`
 
 	& > .footerdata {
 		font-size: 14px;
-		width: 18.9%;
+		width: 15.9%;
 		line-height: 20px;
 		vertical-align: top;
 		display: inline-block;
