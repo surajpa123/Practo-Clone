@@ -26,39 +26,7 @@ const Navbarwrapper = () => {
 		<Section>
 			<Navbar fixed={pathname === '/doctors' ? true : false}>
 				<div className='nav'>
-					<input type='checkbox' checked={sidebarOpen} name='hamburger_menu' id='hamburger_icon' />
-					<div className='mobile_list'>
-						<label onClick={() => setSidebarOpen(false)} htmlFor='hamburger_icon' className='close_icon'>
-							<i className='ion-close-round' />
-						</label>
-						<ul>
-							<li>
-								<Link onClick={() => setSidebarOpen(false)} to='/doctors'>
-									Find Doctors
-								</Link>
-							</li>
-							<li>
-								<Link onClick={() => setSidebarOpen(false)} to='/video-consult'>
-									Video Consult
-								</Link>
-							</li>
-							<li>
-								<Link onClick={() => setSidebarOpen(false)} to='/'>
-									Medicines
-								</Link>
-							</li>
-							<li>
-								<Link onClick={() => setSidebarOpen(false)} to='/'>
-									Lab Tests
-								</Link>
-							</li>
-							<li>
-								<Link onClick={() => setSidebarOpen(false)} to='/'>
-									Surgeries
-								</Link>
-							</li>
-						</ul>
-					</div>
+					
 					<label onClick={() => setSidebarOpen(true)} htmlFor='hamburger_icon' className='hamburger_menu'>
 						<i className='ion-navicon-round' />
 					</label>
@@ -83,26 +51,26 @@ const Navbarwrapper = () => {
 						<div id='nav_mid' className='nav-mid'>
 							<Link to='/doctors' className={`prod ${pathname === '/doctors' ? 'active' : ''}`}>
 								<div className='prod-title'> Find Doctors </div>{' '}
-								<div className='prod-sub'> Book an appointment </div>{' '}
+		
 							</Link>{' '}
 							<Link
 								to='video-consult'
 								className={`prod ${pathname === '/video-consult' ? 'active' : ''}`}
 							>
 								<div className='prod-title'> Video Consult </div>{' '}
-								<div className='prod-sub'> Consult top doctors </div>{' '}
+					
 							</Link>{' '}
 							<div className='prod' id='medicines'>
 								<div className='prod-title'> Medicines </div>{' '}
-								<div className='prod-sub'> Practo pharmacy </div>{' '}
+						
 							</div>{' '}
 							<div className='prod' id='lab_tests'>
 								<div className='prod-title'> Lab Tests </div>{' '}
-								<div className='prod-sub'> Book tests & checkup </div>{' '}
+						
 							</div>{' '}
 							<div className='prod' id='surgeries'>
 								<div className='prod-title'> Surgeries </div>{' '}
-								<div className='prod-sub'> Expert sugical care </div>{' '}
+					
 							</div>{' '}
 						</div>{' '}
 						<div
