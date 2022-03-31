@@ -5,7 +5,6 @@ export const Faq = ()=>{
     return(
         <>
 <div className={style.section}>
-
 <div className={style.wrap}>
 <h2 className={style.heading}>Faq</h2>
 <div className={style.container}>
@@ -19,7 +18,6 @@ Online doctor consultation or online medical consultation is a method ....
 <a href="#"> Read More</a>
 </p>
 </section>
-
 <section className={style.col}>
 <h3 className={style.bigtext}>How do I start online consultation with doctors on Practo?</h3>
 <p className={style.textsub}>
@@ -29,7 +27,6 @@ Starting an online doctor consultation is very simple on Practo. Follow these 4 
 <a href="#"> Read More</a>
 </p>
 </section>
-
 <section className={style.col}>
 <h3 className={style.bigtext}>Are your online doctors qualified?</h3>
 <p className={style.textsub}>

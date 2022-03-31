@@ -21,6 +21,8 @@ function App() {
 <Route path='/find' element= {<Finddoctors/>}></Route>
 
 </Routes>
+
+
 </div>
   )
 }
