@@ -55,9 +55,12 @@ display: flex;
 
 .MedicineSearchCart{
     margin-left: 10%;
+    /* display: flex; */
 }
 
+
 .MedicineSearchCart>button{
+    display: flex;
     color: #fff;
     background: #14bef0;
     cursor: pointer;
@@ -67,4 +70,16 @@ display: flex;
     border-radius: 2px;
     border-image: initial;
     border: 1px solid transparent;  
+    /* text-align: end; */
+    /* padding-left: -20%; */
+}
+.MedicineSearchCart>button>div{
+    /* border: 2px solid red; */
+    padding-right: 10%;
+}
+.MedicineSearchCart>button>span{
+    /* border: 2px solid peru; */
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
 }
