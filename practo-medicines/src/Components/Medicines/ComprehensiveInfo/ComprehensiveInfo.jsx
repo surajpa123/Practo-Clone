@@ -1,4 +1,5 @@
-import "./ComprehensiveInfo.css"
+import "./ComprehensiveInfo.css";
+
 
 export const ComprehensiveInfo = () => {
     return(

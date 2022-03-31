@@ -5,16 +5,25 @@ import { IntroducingBelowCategory } from './Components/Medicines/IntroducingBelo
 import { ComprehensiveInfo } from './Components/Medicines/ComprehensiveInfo/ComprehensiveInfo';
 import { WhatUserSays } from './Components/Medicines/WhatUserSays/WhatUserSays';
 import { DownloadPracto } from './Components/Medicines/DownloadPracto/DownloadPracto';
+import SliderImage from './Components/Medicines/SliderImage/SliderImage';
+import MedicinesProduct from './Components/MedicinesProduct/MedicinesProduct';
+import MedicineSearch from './Components/MedicineSearch/MedicineSearch';
 
 function App() {
   return (
     <div className="">
       <h1>Pranav</h1>
+      {/* Home page Medicines */}
+      {/* <SliderImage/>
       <BrowseCategoryMedicine/>
       <IntroducingBelowCategory/>
       <ComprehensiveInfo/>
       <WhatUserSays/>
-      <DownloadPracto/>
+      <DownloadPracto/> */}
+      {/* Home page Medicines */}
+      <MedicineSearch/>
+      <MedicinesProduct/>
+      
     </div>
   );
 }
